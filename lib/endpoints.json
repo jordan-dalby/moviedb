@@ -68,6 +68,7 @@
           , "OnTheAir" : { "resource": "tv/on_the_air", "method": "get" }
           , "AiringToday" : { "resource": "tv/airing_today", "method": "get" }
           , "Recommend" : { "resource": "tv/:id/recommendations", "method": "get" }
+          , "Reviews" : { "resource": "tv/:id/reviews", "method": "get" }
           , "Changes" : { "resource": "tv/:id/changes", "method": "get" }
          }
       , "person" : {
