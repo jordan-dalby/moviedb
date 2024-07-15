@@ -56,6 +56,7 @@
           , "Keywords" : { "resource": "tv/:id/keywords", "method": "get" }
           , "Similar" : { "resource": "tv/:id/similar", "method": "get" }
           , "Translations" : { "resource": "tv/:id/translations", "method": "get" }
+          , "ContentRatings" : { "resource": "tv/:id/content_ratings", "method": "get" }
           , "SeasonInfo" : { "resource": "tv/:id/season/:season_number", "method": "get" }
           , "SeasonCredits" : { "resource": "tv/:id/season/:season_number/credits", "method": "get" }
           , "SeasonVideos" : { "resource": "tv/:id/season/:season_number/videos", "method": "get" }
